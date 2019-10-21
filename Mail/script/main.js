@@ -12,13 +12,48 @@ var askmail = prompt("Come ti chiami?");
 // de la mail match the 3 ok, sei invitato, altrimenti sei out
 
 var iscritti = ["Luca", "Marco", "Paolo"];
-iscritti.push(‘Michele’);
 
-if (askmail=Luca) {
+for(var index = 0; index < lista.lenght; index++) {
+  console.log(iscritti[index], index);
+  if(nome == iscritti [index]) {
+  console.log("Nome trovato", index, trovato);
+  }
+}
 
+if (trovato == true) {
+  console.log("sei nella lista");
+} else {
+  console.log("non sei nella lista");
 }
 
 // seleziono elemento html in cui fare output
 var htmlElement = document.getElementById("output");
 
-htmlElement.innerHTML = "Sei invitato!";
+if (askmail="Luca", "Marco", "Paolo") {
+  htmlElement.innerHTML = "Sei invitato!";
+}
+else {
+  htmlElement.innerHTML = "NON sei invitato!";
+}
+
+
+
+// var lista = ["Luca","Marco","Luigi"];
+// console.log(lista);
+// var nome = "Marco";
+//
+// var trovato = false;
+//
+//
+// for(var index = 0; index < lista.lenght; index++) {
+//   console.log(lista[index], index);
+//   if(nome == lista[index]) {
+//   console.log("Nome trovato", index, trovato);
+//   }
+// }
+//
+// if (trovato == true) {
+//   console.log("sei nella lista");
+// } else {
+//   console.log("non sei nella lista");
+// }
