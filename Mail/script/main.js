@@ -5,15 +5,15 @@
 // chiedo la mail (prompt)
 var askmail = prompt("Come ti chiami?");
 
-
 // creo una lista di 3 Mail
 
 // creo un calcolo che in base all imput restituisce un Output
-// de la mail match the 3 ok, sei invitato, altrimenti sei out
+// se la mail match the 3 ok, sei invitato, altrimenti sei out
 
 var iscritti = ["Luca", "Marco", "Paolo"];
+var trovato = false;
 
-for(var index = 0; index < lista.lenght; index++) {
+for(var index = 0; index < iscritti.lenght; index++) {
   console.log(iscritti[index], index);
   if(nome == iscritti [index]) {
   console.log("Nome trovato", index, trovato);
