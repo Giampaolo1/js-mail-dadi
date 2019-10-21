@@ -3,7 +3,6 @@
 // messaggio appropriato
 
 // chiedo la mail (prompt)
-var askmail = prompt("Come ti chiami?");
 
 // creo una lista di 3 Mail
 
@@ -13,7 +12,8 @@ var askmail = prompt("Come ti chiami?");
 var lista = ["Luca", "Marco", "Luigi"];
 console.log(lista);
 
-var nome = "Paola"
+var askmail = prompt("Come ti chiami?");
+
 var trovato = false;
 console.log(trovato,"prima di for");
 
