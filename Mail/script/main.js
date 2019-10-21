@@ -19,8 +19,8 @@ console.log(trovato,"prima di for");
 
 // ciclo che non capiro' mai
 for(var index = 0; index < lista.lenght; index++) {
-  console.log(lista[index], index);
-  if(nome == lista [index]) {
+  console.log(lista[index]);
+  if(askmail == lista [index]) {
     trovato=true;
     console.log("Nome trovato", index, trovato);
   }
