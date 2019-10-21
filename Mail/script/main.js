@@ -10,15 +10,23 @@ var askmail = prompt("Come ti chiami?");
 // creo un calcolo che in base all imput restituisce un Output
 // se la mail match the 3 ok, sei invitato, altrimenti sei out
 
-var iscritti = ["Luca", "Marco", "Paolo"];
-var trovato = false;
+var lista = ["Luca", "Marco", "Luigi"];
+console.log(lista);
 
-for(var index = 0; index < iscritti.lenght; index++) {
-  console.log(iscritti[index], index);
-  if(nome == iscritti [index]) {
-  console.log("Nome trovato", index, trovato);
+var nome = "Paola"
+var trovato = false;
+console.log(trovato,"prima di for");
+
+// ciclo che non capiro' mai
+for(var index = 0; index < lista.lenght; index++) {
+  console.log(lista[index], index);
+  if(nome == lista [index]) {
+    trovato=true;
+    console.log("Nome trovato", index, trovato);
   }
 }
+
+console.log(trovato, "dopo for");
 
 if (trovato == true) {
   console.log("sei nella lista");
@@ -29,12 +37,6 @@ if (trovato == true) {
 // seleziono elemento html in cui fare output
 var htmlElement = document.getElementById("output");
 
-if (askmail="Luca", "Marco", "Paolo") {
-  htmlElement.innerHTML = "Sei invitato!";
-}
-else {
-  htmlElement.innerHTML = "NON sei invitato!";
-}
 
 
 
