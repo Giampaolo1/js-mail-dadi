@@ -11,9 +11,22 @@ var pcnumber = Math.random() * (6 - 1) + 1;
 
 console.log(pcnumber);
 
-// stampare i risultati
 // confrontare i risultati
+if (usernumber > pcnumber) {
+  console.log("hai vinto");
+}else if (usernumber < pcnumber) {
+  console.log("hai perso");
+}else {
+  console.log("pareggio");
+}
+
+
+
+
+
 // chi fa di piu' vince 3 msg
+
+// stampare i risultati
 
 
 // function getRandomArbitrary(min, max) {
