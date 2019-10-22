@@ -9,10 +9,10 @@
 // creo un calcolo che in base all imput restituisce un Output
 // se la mail match the 3 ok, sei invitato, altrimenti sei out
 
-var lista = ["Luca", "Marco", "Luigi"];
+var lista = ["luca@boolean", "marco@boolean", "mario@boolean"];
 console.log(lista);
 
-var askmail = prompt("Come ti chiami?");
+var askmail = prompt("inserisci la tua mail per accedere alla festa, ricorda di scrivere: (tuonome@boolean)");
 
 var trovato = false;
 console.log(trovato,"prima di for");
@@ -28,14 +28,21 @@ for(var index = 0; index < lista.length; index++) {
 
 console.log(trovato, "dopo for");
 
+// seleziono elemento html in cui fare output
+
 if (trovato == true) {
   console.log("sei nella lista");
+
+  var htmlElement = document.getElementById("output");
+  htmlElement.innerHTML = "Sei Invitato!";
+
 } else {
   console.log("non sei nella lista");
+  var htmlElement = document.getElementById("output");
+  htmlElement.innerHTML = "Non sei invitato!";
 }
 
-// seleziono elemento html in cui fare output
-var htmlElement = document.getElementById("output");
+
 
 
 
