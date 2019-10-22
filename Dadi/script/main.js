@@ -2,12 +2,12 @@
 
 // chiedere all utente di tirare
 
-var usernumber = Math.random() * (6 - 1) + 1;
+var usernumber = Math.floor(Math.random() * (6 - 1) ) + 1;
 
 console.log(usernumber);
 
 // generare un math random da 1 a 6
-var pcnumber = Math.random() * (6 - 1) + 1;
+var pcnumber = Math.floor(Math.random() * (6 - 1) ) + 1;
 
 console.log(pcnumber);
 
