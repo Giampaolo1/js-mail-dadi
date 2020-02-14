@@ -1,6 +1,7 @@
 // Chiedi all’utente la sua email controlla che sia
 // nella lista di chi può accedere e stampa un
-// messaggio appropriato
+// messaggio appropriato:
+// Lista: "luca@boolean", "marco@boolean", "mario@boolean"
 
 // chiedo la mail (prompt)
 
@@ -17,7 +18,7 @@ var askmail = prompt("inserisci la tua mail per accedere alla festa, ricorda di 
 var trovato = false;
 console.log(trovato,"prima di for");
 
-// ciclo che non capiro' mai
+// ciclo
 for(var index = 0; index < lista.length; index++) {
   console.log(lista[index]);
   if(askmail == lista[index]) {
